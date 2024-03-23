@@ -1,4 +1,5 @@
 # Login-Registration-Form-using-C++
+![Backend](https://img.shields.io/badge/C++-red)
 
 # Overview
 This is the login and registration system using C++ which lets new users to register by providing their personal information such as their name and password. This system validates the input data to ensure its correctness. Existing users can log in using their username and password.
@@ -18,7 +19,7 @@ Existing users can use this system to <strong>Login</strong> and new Users can u
 
 # Set up
 <ul>
-  <li>Clone the [Repository] (git@github.com:mayanksamadhiya12345/Login-and-Registration-Form.git)</li>
+  <li>Clone the Repository</li>
   <li>Run login.cpp</li>
   <li>Enjoy the functionalities</li>
 </ul>
