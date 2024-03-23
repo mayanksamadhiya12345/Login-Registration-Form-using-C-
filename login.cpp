@@ -37,7 +37,7 @@ int main()
             break;
 
         case 4:
-        	cout << "Exiting\n";
+        	cout << "Existing\n";
             cout << "Thankyou for using! \n\n\n";
             break;
 
