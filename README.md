@@ -25,4 +25,4 @@ Existing users can use this system to <strong>Login</strong> and new Users can u
 </ul>
 
 # Found a Bug?
-If you found an issue or would like to submit an improved verison of this project, please submit an issue in the issue tabs above.
+If you found an issue or would like to submit an improved verison of this project, please ping me here <strong>mayanksamadhiya@12345@gmail.com</strong>.
