@@ -2,7 +2,7 @@
 ![Backend](https://img.shields.io/badge/C++-red)
 
 # Overview
-This is the login and registration system using C++ which lets new users to register by providing their personal information such as their name and password. This system validates the input data to ensure its correctness. Existing users can log in using their username and password.
+This is the login and registration system using C++ which lets new users to register by providing their personal information such as their email, name and password. This system validates the input data to ensure its correctness. Existing users can log in using their username and password.
 
 # Tech Stack
 <strong>Backend</strong> : C++ <br />
