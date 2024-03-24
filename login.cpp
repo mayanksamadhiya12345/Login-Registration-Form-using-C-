@@ -75,6 +75,20 @@ void login()
         cout << endl << UserName << " Account LOGIN has been done successfully" ;
 		cout<< "\nThanks for logging in \n\n";
 		cout<<"===================================================================================="<<endl<<endl;
+		
+		cout<<"\n\nWant to Log out (Y/N) : ";
+    
+	    char ch;
+	    cin>>ch;
+	    cout<<endl<<endl;
+	    
+	    if(ch=='Y' || ch=='y') 
+		{
+			cout << endl << UserName << " Account LOGOUT has been done successfully" ;
+			cin.ignore();
+			main();
+		}
+	    else if (ch=='N' || ch=='n') cout<<"\n\nThanks for Using!"<<endl;
     }
     else
     {
@@ -180,7 +194,7 @@ void forgot()
             if(account_found)
             {
                 cout << "\nYour account has been found ";
-                cout << "\nYour password is :" << sUserPassword << endl << endl;
+                cout << "\nYour password is : " << sUserPassword << endl << endl;
                 cout<<"===================================================================================="<<endl<<endl;
                 
 				cout<<"\n\nWant to go to the main menu (Y/N) : ";
@@ -241,7 +255,11 @@ void forgot()
 			    cin>>ch;
 			    cout<<endl<<endl;
 			    
-			    if(ch=='Y' || ch=='y') main();
+			    if(ch=='Y' || ch=='y')
+			    {
+					cin.ignore();
+					main();
+				}
 			    else if (ch=='N' || ch=='n') cout<<"Thanks for Using!"<<endl;
             }
             else
